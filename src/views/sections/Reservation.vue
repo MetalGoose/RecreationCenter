@@ -5,20 +5,18 @@
       :src="require('@/assets/reservation-img.jpg')"
       class="white--text"
     >
-      <v-container class="fill-height px-4 py-12">
-        <v-responsive
-          class="d-flex align-center mx-auto"
-          height="100%"
-          max-width="500"
-          width="100%"
-        >
-          <base-heading
-            size="text-h2"
-            title="Номерной фонд"
-            weight="medium"
-          />
-        </v-responsive>
-      </v-container>
+      <v-responsive
+        class="d-flex align-center mx-auto"
+        height="100%"
+        max-width="500"
+        width="100%"
+      >
+        <base-heading
+          size="text-h2"
+          title="Номерной фонд"
+          weight="medium"
+        />
+      </v-responsive>
     </v-img>
     <v-container class="grey lighten-5">
       <v-row>

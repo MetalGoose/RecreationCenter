@@ -8,20 +8,18 @@
       class="white--text"
       gradient="to bottom, rgba(11, 28, 61, .9), rgba(0,0,0,.4)"
     >
-      <v-container class="fill-height px-4 py-12">
-        <v-responsive
-          class="d-flex align-center mx-auto"
-          height="100%"
-          max-width="300"
-          width="100%"
-        >
-          <base-heading
-            size="text-h2"
-            title="Контакты"
-            weight="medium"
-          />
-        </v-responsive>
-      </v-container>
+      <v-responsive
+        class="d-flex align-center mx-auto"
+        height="100%"
+        max-width="300"
+        width="100%"
+      >
+        <base-heading
+          size="text-h2"
+          title="Контакты"
+          weight="medium"
+        />
+      </v-responsive>
     </v-img>
     <base-section
       height="100%"
